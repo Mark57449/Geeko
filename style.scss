@@ -1,0 +1,70 @@
+// $mdc-theme-primary: #FEDBD0;
+// $mdc-theme-on-primary: #442C2E;
+// $mdc-theme-secondary: #FEEAE6;
+// $mdc-theme-on-secondary: #442C2E;
+// $mdc-theme-surface: #FFFBFA;
+// $mdc-theme-on-surface: #442C2E;
+// $mdc-theme-background: #FFFFFF;
+// $mdc-theme-on-background: #442C2E;
+
+$animes: #f7901e;
+$games: #52b346;
+$series: #c36642;
+$filmes: #5090e0;
+$hqm: #d43f40;
+
+$geeko-primary: #d43f40;
+$geeko-secondary: #f7901e;
+$geeko-on-primary: #d45758;
+
+@import "material-components-web/material-components-web";
+
+.mdc-button {
+  @include mdc-button-ink-color(#FFF);
+  @include mdc-states($geeko-secondary);
+  @include mdc-button-container-fill-color($geeko-on-primary)
+}
+
+// CSS DO HEADER
+
+#header {
+  .now {
+    position: relative;
+    left:2px;
+    font-family: Lato, Arial, sans-serif;
+    color: #d34040;
+    float: right;
+  }
+  .now span.font{
+    position: relative;
+    bottom:2px;
+    font-size: 25px;
+    font-weight: 800;
+  }
+  .go-menu-cat {
+    a.mdc-tab {
+      min-width: inherit;
+      padding: 0 13px;
+    }
+    a.mdc-tab:hover {
+      text-decoration: none;
+    }
+    span.a { background: $animes; }
+    i.a {  position: relative; top:5px; right:3px; color: $animes; }
+    span.b { background: $games; }
+    i.b {  position: relative; top:5px; right:3px; color: $games; }
+    span.c { background: $series; }
+    i.c {  position: relative; top:5px; right:3px; color: $series; }
+    span.d { background: $filmes; }
+    i.d {  position: relative; top:5px; right:3px; color: $filmes; }
+    span.e { background: $hqm; }
+    i.e {  position: relative; top:5px; right:3px; color: $hqm; }
+
+  }
+}
+
+// CSS DA POSTAGEM ABERTA
+
+#post-view {
+  
+}
