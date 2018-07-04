@@ -1,4 +1,4 @@
-[![Geeko](https://raw.githubusercontent.com/mark57449/geeko/master/assets/branding/Geeko!!.png)](http://#/)
+[![Geeko](https://github.com/Mark57449/Geeko/blob/master/ASSETS/Branding/Geeko!!.png?raw=true)](http://#/)
 
 Projeto da Geeko de loja virtual e rede de noticias.
 
