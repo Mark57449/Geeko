@@ -1,6 +1,6 @@
 {
   "name": "geekonpm",
-  "version": "0.3.0",
+  "version": "0.4.3",
   "description": "Projeto de Jornal Geeko.",
   "main": "index.js",
   "scripts": {
