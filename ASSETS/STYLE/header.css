@@ -1,0 +1,115 @@
+@import "ADD/tab.css";
+.fix-icon {
+  position: relative;
+  top: 5px;
+}
+
+.margin-body {
+  margin-top: 80px;
+}
+
+#header .bg-1 {
+  background: #FFF;
+}
+#header .now {
+  position: relative;
+  left: 2px;
+  font-family: Lato, Arial, sans-serif;
+  color: #d34040;
+  float: right;
+}
+#header .now span.font {
+  position: relative;
+  bottom: 2px;
+  font-size: 25px;
+  font-weight: 800;
+}
+#header .go-menu-cat a.mdc-tab {
+  min-width: inherit;
+  padding: 0 13px;
+}
+#header .go-menu-cat a.mdc-tab:hover {
+  text-decoration: none;
+}
+#header .go-menu-cat span.a {
+  background: #f6801f;
+}
+#header .go-menu-cat i.a {
+  position: relative;
+  top: 5px;
+  right: 3px;
+  color: #f6801f;
+}
+#header .go-menu-cat span.b {
+  background: #52b346;
+}
+#header .go-menu-cat i.b {
+  position: relative;
+  top: 5px;
+  right: 3px;
+  color: #52b346;
+}
+#header .go-menu-cat span.c {
+  background: #c36642;
+}
+#header .go-menu-cat i.c {
+  position: relative;
+  top: 5px;
+  right: 3px;
+  color: #c36642;
+}
+#header .go-menu-cat span.d {
+  background: #5090e0;
+}
+#header .go-menu-cat i.d {
+  position: relative;
+  top: 5px;
+  right: 3px;
+  color: #5090e0;
+}
+#header .go-menu-cat span.e {
+  background: #d43f40;
+}
+#header .go-menu-cat i.e {
+  position: relative;
+  top: 5px;
+  right: 3px;
+  color: #d43f40;
+}
+#header .go-menu-cat .go-btn-pesquisa .fix-icon {
+  top: 11px !important;
+  left: 3px;
+}
+#header #extra-navbar {
+  background: #d03e3f !important;
+}
+#header #extra-navbar h3 {
+  font-size: 16px;
+  color: #FFF;
+  font-family: Roboto;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#header #extra-navbar .mdc-text-field__input {
+  font-size: 12px;
+}
+#header #extra-navbar .badge-secondary {
+  background: none;
+  border: 2px solid #FFF;
+  border-radius: 0px !important;
+  opacity: 0.8;
+}
+#header #extra-navbar .badge-secondary:hover {
+  opacity: 1;
+}
+#header #extra-navbar .yeah-100 {
+  opacity: 1;
+}
+#header #extra-navbar .yeah-75 {
+  opacity: 0.75;
+}
+#header #extra-navbar .yeah-50 {
+  opacity: 0.6;
+}
+
+/*# sourceMappingURL=header.css.map */

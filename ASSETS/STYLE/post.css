@@ -1,0 +1,97 @@
+@import "ADD/tab.css";
+.fix-icon {
+  position: relative;
+  top: 5px;
+}
+
+.margin-body {
+  margin-top: 80px;
+}
+
+#post-view .post {
+  font-family: Lato, Roboto, Arial;
+  font-size: 19px;
+  color: rgba(0, 0, 0, 0.84);
+}
+#post-view .post .thumbpost {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  height: 1000px;
+  background-size: cover !important;
+}
+#post-view .intro-post {
+  font-family: Roboto !important;
+  margin: 10px 0;
+}
+#post-view .intro-post #local {
+  font-size: 13px;
+}
+#post-view .intro-post #local a {
+  opacity: 0.4;
+  color: #000;
+}
+#post-view .intro-post #local a :link {
+  text-decoration: none;
+}
+#post-view .intro-post p {
+  font-size: 16px;
+  opacity: 0.75;
+}
+#post-view .intro-post #info {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  border-top: 1px solid #00000010;
+  border-bottom: 1px solid #00000010;
+  padding: 6px 0;
+}
+#post-view .intro-post #info span {
+  font-size: 15px;
+  margin-right: 15px;
+  opacity: 0.88;
+}
+#post-view .intro-post #info .anime {
+  border: 4px solid #d45758;
+  color: #d45758;
+  padding: 2px 3px;
+  text-transform: uppercase;
+}
+#post-view .intro-post #info .data i, #post-view .intro-post #info .leitura i {
+  position: relative;
+  top: 4px;
+  right: 2px;
+}
+#post-view #extra-info {
+  display: inline-block;
+  margin-bottom: 100px;
+  border-top: 1px solid #00000030;
+}
+#post-view #extra-info .fonte a {
+  position: relative;
+  display: block;
+  left: 10px;
+}
+#post-view #extra-info .ibagens {
+  position: relative;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  background-size: 100% !important;
+  background-position: center !important;
+}
+#post-view #extra-info span {
+  display: block;
+}
+#post-view #extra-info .aaa {
+  position: relative;
+  bottom: 13px;
+  left: 10px;
+  display: inline-block;
+}
+#post-view #extra-info p {
+  display: block;
+}
+
+/*# sourceMappingURL=post.css.map */

@@ -1,0 +1,12 @@
+#footer {
+  position: absolute;
+  bottom: 1;
+  border-top: 1px solid #00000020;
+  box-shadow: 0 -0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+#footer span {
+  display: block;
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=footer.css.map */
