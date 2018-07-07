@@ -1,0 +1,28 @@
+// $mdc-theme-primary: #FEDBD0;
+// $mdc-theme-on-primary: #442C2E;
+// $mdc-theme-secondary: #FEEAE6;
+// $mdc-theme-on-secondary: #442C2E;
+// $mdc-theme-surface: #FFFBFA;
+// $mdc-theme-on-surface: #442C2E;
+// $mdc-theme-background: #FFFFFF;
+// $mdc-theme-on-background: #442C2E;
+
+$animes: #f6801f;
+$games: #52b346;
+$series: #c36642;
+$filmes: #5090e0;
+$hqm: #d43f40;
+
+$geeko-primary: #d43f40;
+$geeko-on-primary: #d45758;
+$geeko-primary-dark: #d03e3f;
+$geeko-secondary: #f7901e;
+$geeko-on-secondary: #f6801f;
+
+$post-font-family: Lato, Roboto, Arial;
+$titulo: Lato;
+
+@import "ADD/tab.css";
+
+.fix-icon { position: relative; top:5px; }
+.margin-body { margin-top: 80px; }

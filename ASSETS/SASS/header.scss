@@ -1,0 +1,78 @@
+@import "style.scss";
+
+#header {
+  .bg-1 { background: #FFF; }
+
+  .now {
+    position: relative;
+    left:2px;
+    font-family: Lato, Arial, sans-serif;
+    color: #d34040;
+    float: right;
+  }
+  .now span.font{
+    position: relative;
+    bottom:2px;
+    font-size: 25px;
+    font-weight: 800;
+  }
+  .go-menu-cat {
+    a.mdc-tab {
+      min-width: inherit;
+      padding: 0 13px;
+    }
+    a.mdc-tab:hover {
+      text-decoration: none;
+    }
+    span.a { background: $animes; }
+    i.a {  position: relative; top:5px; right:3px; color: $animes; }
+    span.b { background: $games; }
+    i.b {  position: relative; top:5px; right:3px; color: $games; }
+    span.c { background: $series; }
+    i.c {  position: relative; top:5px; right:3px; color: $series; }
+    span.d { background: $filmes; }
+    i.d {  position: relative; top:5px; right:3px; color: $filmes; }
+    span.e { background: $hqm; }
+    i.e {  position: relative; top:5px; right:3px; color: $hqm; }
+
+    .go-btn-pesquisa {
+      .fix-icon { top:11px !important; left: 3px;}
+    }
+  }
+
+  #extra-navbar {
+    background: $geeko-primary-dark !important;
+
+    h3 {
+      font-size: 16px;
+      color: #FFF;
+      font-family: Roboto;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    // .custom-field {
+    //   @include mdc-text-field-label-color(#EEE);
+    //   @include mdc-text-field-fullwidth-bottom-line-color(#EEE);
+    // }
+
+    .mdc-text-field__input {
+      font-size: 12px;
+    }
+
+    .badge-secondary {
+      background: none;
+      border: 2px solid #FFF;
+      border-radius: 0px !important;
+      opacity: .80;
+    }
+
+    .badge-secondary:hover {
+      opacity: 1;
+    }
+
+    .yeah-100 { opacity: 1; }
+    .yeah-75 { opacity: .75; }
+    .yeah-50 { opacity: .60; }
+  }
+}
