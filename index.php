@@ -11,11 +11,16 @@
   <link rel="stylesheet" href="ASSETS/STYLE/style.css">
   <link rel="stylesheet" href="ASSETS/STYLE/header.css">
   <link rel="stylesheet" href="ASSETS/STYLE/post.css">
+  <link rel="stylesheet" href="ASSETS/STYLE/PerfilEFontes.css">
+  <link rel="stylesheet" href="ASSETS/STYLE/PostsRelacionados.css">
+  <link rel="stylesheet" href="ASSETS/STYLE/SugestoesDePosts.css">
   <link rel="stylesheet" href="ASSETS/STYLE/footer.css">
 </head>
-<body class="margin-body">
+<body style="background: #f2f2f2;">
  <?php
-  include('ELEMENTS/PerfilEFontes.php');
+  include 'header.php';
+  include 'post-view.php';
+  include 'footer.php';
  ?>
 </body>
 <!-- JQuery & Popper & Bootstrap 4-->
