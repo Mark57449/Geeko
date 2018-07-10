@@ -1,5 +1,5 @@
 <header id="header">
-  <nav class="navbar fixed-top navbar-expand-lg p-0 shadow bg-1">
+  <nav class="navbar fixed-top navbar-expand-lg p-0 shadow-sm bg-1">
     <div class="container">
       <a class="navbar-brand" href="#">
         <img src="ASSETS/Branding/Geeko!SVG.svg" width="125px" alt="Logotipo Geeko!"><h2 class="now m-0"><span class="barra">#</span><span class="font">Agora</span></h2>
