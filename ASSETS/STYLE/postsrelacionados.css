@@ -1,0 +1,30 @@
+@import "ADD/tab.css";
+.fix-icon {
+  position: relative;
+  top: 5px;
+}
+
+#PostsRelacionados {
+  padding: 25px 0;
+  border-top: 1px solid #00000020;
+}
+#PostsRelacionados h3 {
+  position: relative;
+  margin: 0 15px;
+  font-size: 35px;
+}
+#PostsRelacionados h4 {
+  position: relative;
+  font-family: Lato, Roboto, Arial;
+  font-size: 17px;
+}
+#PostsRelacionados .thumbpost {
+  width: 100%;
+  height: 230px;
+}
+#PostsRelacionados .subtitulo {
+  margin: 0 0 15px 15px;
+  font-size: 15px !important;
+}
+
+/*# sourceMappingURL=PostsRelacionados.css.map */

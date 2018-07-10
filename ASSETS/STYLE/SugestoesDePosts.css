@@ -1,0 +1,25 @@
+@import "ADD/tab.css";
+.fix-icon {
+  position: relative;
+  top: 5px;
+}
+
+#SugestoesDePosts {
+  padding: 25px 0;
+  border-top: 1px solid #00000020;
+}
+#SugestoesDePosts h3 {
+  position: relative;
+  margin: 0 15px;
+}
+#SugestoesDePosts h4 {
+  position: relative;
+  font-family: Lato, Roboto, Arial;
+  font-size: 17px;
+}
+#SugestoesDePosts .thumbpost {
+  width: 100%;
+  height: 230px;
+}
+
+/*# sourceMappingURL=SugestoesDePosts.css.map */
