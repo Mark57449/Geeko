@@ -1,0 +1,45 @@
+@import "style.scss";
+
+#extra-info {
+  display: inline-block;
+  margin-bottom: 10px;
+  border-top: 1px solid #00000030;
+
+  .fonte a {
+    position: relative;
+    display: block;
+    left: 10px;
+    font-size: 14px;
+  }
+
+  .ibagens {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-size: 100% !important;
+    background-position: center !important;
+  }
+
+  span {
+    display: block;
+  }
+
+  .aaa {
+    position: relative;
+    bottom: 6px;
+    left: 10px;
+    font-size: 14px;
+    display: inline-block;
+
+    .a {
+        font-size: 15px !important;
+    }
+  }
+
+  p {
+    display: block;
+    font-size: 14px;
+  }
+}
