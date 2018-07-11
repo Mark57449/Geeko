@@ -17,9 +17,9 @@
 }
 #extra-info .ibagens {
   position: relative;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
+  display: block;
+  width: 146px;
+  height: 200px;
   border-radius: 100%;
   background-size: 100% !important;
   background-position: center !important;
@@ -29,17 +29,18 @@
 }
 #extra-info .aaa {
   position: relative;
-  bottom: 6px;
-  left: 10px;
-  font-size: 14px;
-  display: inline-block;
+  font-size: 24px;
 }
 #extra-info .aaa .a {
-  font-size: 15px !important;
+  position: relative;
+  font-size: 30px !important;
 }
 #extra-info p {
   display: block;
-  font-size: 14px;
+  font-size: 19px;
+}
+#extra-info .Social {
+  display: inline-block;
 }
 
 /*# sourceMappingURL=PerfilEFontes.css.map */
