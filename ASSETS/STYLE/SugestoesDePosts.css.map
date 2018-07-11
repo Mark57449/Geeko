@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../sass/style.scss","../sass/sugestoesdeposts.scss"],"names":[],"mappings":"AAwBQ;AAER;EAAY;EAAoB;;;ACxBhC;EACE;EACA;;AAEA;EACE;EACA;;AAGF;EACE;EACA,aDQe;ECPf;;AAGF;EACE;EACA","file":"SugestoesDePosts.css"}
+{"version":3,"sourceRoot":"","sources":["../sass/style.scss","../sass/sugestoesdeposts.scss"],"names":[],"mappings":"AAwBQ;AAER;EAAY;EAAoB;;;ACxBhC;EACE;EACA;;AAEA;EACE;EACA;EACA;;AAGF;EACE;EACA,aDOe;ECNf;;AAGF;EACE;EACA;;AAGF;EACE;EACA;;AAGF;EACE","file":"SugestoesDePosts.css"}

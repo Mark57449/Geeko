@@ -26,5 +26,8 @@
   margin: 0 0 15px 15px;
   font-size: 15px !important;
 }
+#PostsRelacionados a {
+  color: #000;
+}
 
 /*# sourceMappingURL=PostsRelacionados.css.map */
