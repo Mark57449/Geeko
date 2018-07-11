@@ -33,7 +33,12 @@
             <i class="material-icons fix-icon" style="cursor: pointer;">search</i>
           </div>
         </nav>
-        LOJA GEEKO SERA A MELHOR!
+        <div id="login-area">
+          <i class="material-icons fixicon align-middle pointer ml-1 mr-1">notifications_none <!-- notifications, notifications_none, notifications_active, notifications_paused --></i>
+          <i class="material-icons fixicon align-middle pointer ml-1 mr-1">bookmark_border <!-- bookmark_border, bookmarks  --></i>
+          <img src="ASSETS/IMG/Eu2.png" class="avatar-image pointer ml-1 mr-1" alt="É você!">
+        </div>
+        </div>
       </div>
     </div>
   </nav>

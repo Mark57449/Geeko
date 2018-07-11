@@ -86,9 +86,6 @@
   text-transform: uppercase;
   font-weight: 700;
 }
-#header #extra-navbar .mdc-text-field__input {
-  font-size: 12px;
-}
 #header #extra-navbar .badge-secondary {
   background: none;
   border: 2px solid #FFF;
@@ -106,6 +103,23 @@
 }
 #header #extra-navbar .yeah-50 {
   opacity: 0.6;
+}
+#header #login-area {
+  display: inline-block;
+}
+#header #login-area .avatar-image {
+  width: 32px;
+  height: 32px;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  cursor: pointer;
+}
+#header #login-area .fixicon {
+  position: relative;
+  width: 24px;
+}
+#header #login-area .pointer {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=header.css.map */

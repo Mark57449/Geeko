@@ -56,10 +56,6 @@
     //   @include mdc-text-field-fullwidth-bottom-line-color(#EEE);
     // }
 
-    .mdc-text-field__input {
-      font-size: 12px;
-    }
-
     .badge-secondary {
       background: none;
       border: 2px solid #FFF;
@@ -74,5 +70,26 @@
     .yeah-100 { opacity: 1; }
     .yeah-75 { opacity: .75; }
     .yeah-50 { opacity: .60; }
+  }
+
+  #login-area {
+    display: inline-block;
+
+    .avatar-image {
+      width: 32px;
+      height: 32px;
+      -webkit-border-radius: 100%;
+      border-radius: 100%;
+      cursor: pointer;
+    }
+
+    .fixicon {
+      position: relative;
+      width: 24px;
+    }
+
+    .pointer {
+      cursor: pointer;
+    }
   }
 }
