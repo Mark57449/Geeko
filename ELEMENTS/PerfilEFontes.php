@@ -1,6 +1,6 @@
 <div id="extra-info" class="p-3">
   <div class="row">
-      <div class="ibagens col-3" style="background: url('ASSETS/IMG/Eu2.png');"></div>
+      <div class="ibagens col-3" style="background: url('<?php echo get_stylesheet_directory_uri(); ?>/ASSETS/IMG/Eu2.png');"></div>
       <div class="aaa col-9">
         <span class="font-weight-bold a">Wendel Henrique</span>
         <span class="font-weight-normal b text-muted">O Pseudo-lolicon! | O Criador</span>

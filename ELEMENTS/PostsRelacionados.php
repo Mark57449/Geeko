@@ -5,7 +5,7 @@
     <?php for ($i=0; $i < 4; $i++) { ?>
     <article class="col-3">
       <a href="#">
-        <div class="thumbpost" style="background: url('ASSETS/IMG/Anime2.jpg');"></div>
+        <div class="thumbpost" style="background: url('<?php echo get_stylesheet_directory_uri(); ?>/ASSETS/IMG/Anime2.jpg');"></div>
         <h4 align="left">Postagem sobre tal assunto</h4>
       </a>
     </article>
